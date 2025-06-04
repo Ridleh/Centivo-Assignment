@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import { User } from './models/User';
-import * as Config from './Config';
+import { User } from './models/User.js';
+import * as Config from './Config.js';
 const app = express();
 
 mongoose.connect(Config.MONGO_URL)

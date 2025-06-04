@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import { User } from '../models/User';
-import * as Config from '../Config';
+import { User } from '../models/User.js';
+import * as Config from '../Config.js';
 
 const seedUsers = [
   { name: 'John Doe', email: 'john@doe.com', age: 30 },
