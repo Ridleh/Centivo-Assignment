@@ -1,0 +1,1 @@
+This is a simple API built with Node.js, Express, MongoDB. TypeScript was used for type safety. I used a centralized Config.ts file to manage environment variables in one place, making updates easier and more consistent across the project. For easier testing, I also created a seed.ts script that populates the database with sample user data.
